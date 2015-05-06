@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MobileTasker</string>
+    <string name="action_settings">Settings</string>
+    <string name="taskBtn">TASKS</string>
+    <string name="prepBtn">PREPRATIONS</string>
+    <string name="prepScreen">1.LIST OF BOTTLES FOR GET &amp; GRABS as per 1.12 EPA METHOD\n\n2.SAMPLER,HOSE,JUG FOR SET\n\n3.pH meter FOR pH-GR ab</string>
+    <string name="bt1">FACILITY-Acme Aero Site-5001.01</string>
+    <string name="bt2">FACILITY-Acme Aero Site-5001.02</string>
+    <string name="bt3">  FACILITY-XYZ SITE-5011.02</string>
+    <string name="bt4">SAVE OFFLINE</string>
+    <string name="maps">SITE-Address</string>
+    <string name="setform3">SET - Task Field Form</string>
+    <string name="setform4"><u>SET - Composite Data</u></string>
+    <string name="setform5">SET - Time Stamp</string>
+    <string name="setform8">Save Time</string>
+    <string name="setform9">Start Depth(inches)</string>
+    <string name="setform11">Start Flow Totalizer Reading</string>
+    <string name="setform13">Simple Vol/Cycle ml</string>
+    <string name="setform15">Flow (gal)/Sample</string>
+
+</resources>

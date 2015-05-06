@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F04D52"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/corner"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/setform1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittextstyle"
+            android:ems="10"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/setform2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittextstyle"
+            android:ems="10"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="67dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" >
+                </TabWidget>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff00ff"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/setform3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/setform3"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/setform4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/setform4"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/setform5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform4"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center"
+                android:text="@string/setform5"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/setform6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@string/setform5"
+                android:layout_marginLeft="160dp"
+                android:layout_marginTop="15dp"
+                android:layout_toRightOf="@string/setform5" />
+
+            <Spinner
+                android:id="@+id/setform7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/setform6"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="15dp" />
+
+            <Button
+                android:id="@+id/setform8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/setform6"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="260dp"
+                android:layout_marginTop="10dp"
+                android:ems="6"
+                android:text="@string/setform8" />
+
+            <TextView
+                android:id="@+id/setform9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform8"
+                android:gravity="left|center"
+                android:text="@string/setform9"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setform10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform8"
+                android:layout_marginLeft="105dp"
+                android:layout_toRightOf="@+id/setform9"
+                android:ems="8" />
+
+            <TextView
+                android:id="@+id/setform11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform10"
+                android:gravity="left"
+                android:text="@string/setform11"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setform12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform10"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@+id/setform11"
+                android:ems="8" />
+
+            <TextView
+                android:id="@+id/setform13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform12"
+                android:text="@string/setform13"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setform14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform12"
+                android:layout_marginLeft="100dp"
+                android:layout_toRightOf="@+id/setform13"
+                android:ems="8" />
+
+            <TextView
+                android:id="@+id/setform15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform14"
+                android:text="@string/setform15"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/setform16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/setform14"
+                android:layout_marginLeft="115dp"
+                android:layout_toRightOf="@+id/setform15"
+                android:ems="8" />
+        </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/corner1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
